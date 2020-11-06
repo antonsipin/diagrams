@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-s-12">
+
+      <h2 class="all-trips-title">Here are all your diagrams:</h2><br />
+      <div class="d-flex justify-content-center">
+
+
+        <form name="mailForm" method="GET" action="/mail" id="mailForm">
+          <button id="sendMailBtn" formaction="/newtrip" formmethod="get"
+            class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit"
+            value="Pay castomize">Create new diagram</button>
+        </form>
+
+        {{#each allTrips}}
+        <h3>
+          <p id="list" class="list-od-trips list-item col-1-2">
+            <a class="trips-a big fancy-text light-link" href="/newtrip/{{this.id}}">{{this.name}}</a> <br />
+          </p>
+        </h3>
+        {{/each}}
+
+      </div>
+
+    </div>
+  </div>
+
+</div>

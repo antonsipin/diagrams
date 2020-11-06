@@ -1,0 +1,33 @@
+<div class="container">
+
+  <h3>
+    <p href="{{src}}" id="newtripTitle" class="useraccount giveitaname">Your diagram QR code
+      here:
+
+    </p>
+    <img width="300" height="320" src="{{src}}"> </br>
+
+  </h3>
+
+  <h3>
+    <p id="newtripTitle" class="useraccount giveitaname">Your link here:
+
+    </p>
+  </h3>
+  <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3 " onclick="myFunction()">Copy
+    link</button>
+  <div class="form-group">
+    <input type="text" placeholder="Enter diagram labels" value="{{src}}" id="myInput" name="src" class="form-control"
+      id="newtripName"> </br>
+
+  </div>
+  <form>
+    <button id="sendMailBtn" formaction="/newtrip/mail" formmethod="post"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit">Send QR
+      Code
+      by email</button>
+  </form>
+  </br>
+
+  </br>
+</div>

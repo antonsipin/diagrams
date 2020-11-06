@@ -1,0 +1,65 @@
+<div class="container">
+
+  <h3>
+    <p id="newtripTitle" class="useraccount giveitaname">Your diagram "{{diagram.name}}" here:</p>
+  </h3>
+
+  <img src="{{diagram.link}}"> </br>
+
+  </br>
+  <h3>
+    <p id="newtripTitle" class="useraccount giveitaname">Your link here:</p>
+  </h3>
+  <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3 " onclick="myFunction()">Copy
+    link</button> </br>
+
+  <div class="form-group">
+    <input type="text" placeholder="Enter diagram labels" id="myInput" value="{{diagram.link}}" name="newTripName"
+      class="form-control" id="newtripName">
+  </div> <br />
+
+  {{!-- <form class="acc-btn col-3 col-s-12" method="GET" action="/newtrip">
+    <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3">Create new
+      diagram</button></br>
+  </form>
+  <form class="acc-btn col-3 col-s-12" method="GET" action="/newtrip/allTrips">
+    <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3">See all diagrams</button>
+  </form>
+  <form class="acc-btn col-3 col-s-12" method="POST" action="/newtrip/category/{{diagram.id}}">
+    <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3">Edit this diagram</button>
+  </form>
+  <form class="acc-btn col-3 col-s-12" method="GET" action="/newtrip/category/delete/{{diagram.id}}">
+    <button class="waves-effect waves-light btn-large nav-wrapper green lighten-3">Delete this diagram</button>
+  </form> --}}
+
+  <form name="mailForm" method="GET" action="/mail" id="mailForm">
+    <button id="sendMailBtn" formaction="/newtrip" formmethod="get"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit" value="Pay castomize">Create
+      new diagram</button>
+
+    <button id="sendMailBtn" formaction="/newtrip/allTrips" formmethod="get"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit" value="Pay castomize">All
+      diagrams</button>
+
+
+    <button id="sendMailBtn" formaction="/newtrip/category/{{diagram.id}}" formmethod="post"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit" value="Pay castomize">Edit
+      this diagram</button>
+
+
+    <button id="sendMailBtn" formaction="/newtrip/category/delete/{{diagram.id}}" formmethod="GET"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit" value="Pay castomize">Delete
+      this diagram</button>
+
+
+    <button id="sendMailBtn" formaction="/mail" formmethod="post"
+      class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit" value="Pay castomize">Send
+      by email</button>
+
+
+  </form>
+
+  </br>
+
+  </br>
+</div>
