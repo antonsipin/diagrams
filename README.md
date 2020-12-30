@@ -20,7 +20,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
       Install the dependencies <b><i> npm install </i></b>
     </li>
     <li>
-      Place the .env file in the root directory (you can get it from me or take a look at .envexample file)
+      Place the <b>.env</b> file in the root directory (you can get it from me or take a look at <b>.envexample</b> file)
     </li>
     <li>
       Run the app <b><i> npm start </i></b> (The app starts at http://localhost:3000. Open this link in browser and you will be able to test the app)
