@@ -1,4 +1,4 @@
-#Diagrams App
+# Diagrams App
 <p>
   This application provides a service for developers to form charts and QR code links in their applications.
 </p>
