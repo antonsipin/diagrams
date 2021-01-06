@@ -41,20 +41,11 @@ app.use(session({
     secret: process.env.SESSION_SECRET,
   }),
   resave: false,
-  saveUninitialized: false,
+  saveUninitialized: true,
   cookie: { 
-    secure: process.env.NODE_ENV === 'production',
-    maxAge: 1000 * 60 * 60 * 24
+    secure: false
   },
 }))
-
-// app.use(methodOverride(function (req, res) {
-//   if (req.body && typeof req.body === 'object' && '_method' in req.body) {
-//     const method = req.body._method;
-//     delete req.body._method;
-//     return method;
-//   }
-// }));
 
 app.use(userMiddle.userName)
 app.use('/', indexRouter);

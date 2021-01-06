@@ -1,8 +1,8 @@
 {
-  "name": "self-assessment-rest",
+  "name": "Diagrams-app",
   "version": "1.0.0",
-  "description": "Пожалуйста, постарайтесь справиться с этим заданием за 3 часа.",
-  "main": "index.js",
+  "description": "Diagrams-app",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon --ignore .'sessions/' app.js",
     "start": "node app.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonsipin/self-assessment-rest.git"
+    "url": "git+https://https://github.com/antonsipin/diagrams.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antonsipin/self-assessment-rest/issues"
+    "url": "https://https://github.com/antonsipin/diagrams/issues"
   },
-  "homepage": "https://github.com/antonsipin/self-assessment-rest#readme",
+  "homepage": "https://https://github.com/antonsipin/diagrams#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cross-env": "^7.0.2",

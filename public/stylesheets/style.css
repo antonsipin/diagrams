@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .main-text {
@@ -76,4 +76,24 @@ body {
   justify-content: center;
   color: #616161;
   margin-top: 60px;
+}
+
+#mailForm {
+  display: flex;
+  justify-content: center;
+}
+
+.qr {
+  display: flex;
+  justify-content: center;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
 }

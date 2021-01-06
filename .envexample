@@ -1,0 +1,6 @@
+PORT=http or https port
+DB_NAME=database name
+saltRounds=10
+SESSION_SECRET=secret phrase
+mailuser=your email
+mailpassword=your email password
