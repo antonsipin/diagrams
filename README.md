@@ -31,3 +31,39 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
     </li>
   </ul>
   </p> 
+  
+    <h3 align="center">
+   <p>Email verification:</p><br />
+  <img src="public/pics/1.gif" width="800" title="Email verification"><br />
+  
+   <p>Password verification:</p><br />
+  <img src="public/pics/2.gif" width="800" title="Password verification"><br />
+  
+  <p>Authorization:</p><br />
+  <img src="public/pics/3.gif" width="800" title="Authorization"><br />
+  
+  <p>Entering data for a chart:</p><br />
+  <img src="public/pics/4.gif" width="800" title="Entering data for a chart"><br />
+  
+  <p>Creating a link for a GET request:</p><br />
+  <img src="public/pics/5.gif" width="800" title="Creating a link for a GET request"><br />
+  
+  <p>Delete the device from the database:</p><br />
+  <img src="public/pics/6.gif" width="800" title="Delete the device"><br />
+  
+     <p>Turn on the device:</p><br />
+  <img src="public/pics/7.gif" width="800" title="Turn on the device"><br />
+  
+  <p>Creating a link for a GET request:</p><br />
+  <img src="public/pics/8.gif" width="800" title="Creating a link for a GET request"><br />
+  
+  <p>Update the device:</p><br />
+  <img src="public/pics/9.gif" width="800" title="Update the device"><br />
+  
+  <p>Checking if there is already such a device:</p><br />
+  <img src="public/pics/10.gif" width="800" title="Checking if there is already such a device"><br />
+  
+  <p>Creating a link for a GET request:</p><br />
+  <img src="public/pics/11.gif" width="800" title="Creating a link for a GET request"><br />
+  
+  </h3>
