@@ -32,7 +32,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   </ul>
   </p> 
   
-    <h3 align="center">
+  <h3 align="center">
    <p>Email verification:</p><br />
   <img src="public/pics/1.gif" width="800" title="Email verification"><br />
   
@@ -48,20 +48,20 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <p>Creating a link for a GET request:</p><br />
   <img src="public/pics/5.gif" width="800" title="Creating a link for a GET request"><br />
   
-  <p>Delete the device from the database:</p><br />
-  <img src="public/pics/6.gif" width="800" title="Delete the device"><br />
+  <p>View all charts:</p><br />
+  <img src="public/pics/6.gif" width="800" title="View all charts"><br />
   
-     <p>Turn on the device:</p><br />
-  <img src="public/pics/7.gif" width="800" title="Turn on the device"><br />
+  <p>Editing a chart:</p><br />
+  <img src="public/pics/7.gif" width="800" title="Editing a chart"><br />
   
-  <p>Creating a link for a GET request:</p><br />
+  <p>Editing a chart:</p><br />
   <img src="public/pics/8.gif" width="800" title="Creating a link for a GET request"><br />
   
-  <p>Update the device:</p><br />
-  <img src="public/pics/9.gif" width="800" title="Update the device"><br />
+  <p>Copying the link and sending a GET request:</p><br />
+  <img src="public/pics/9.gif" width="800" title="Copying the link and sending a GET request"><br />
   
-  <p>Checking if there is already such a device:</p><br />
-  <img src="public/pics/10.gif" width="800" title="Checking if there is already such a device"><br />
+  <p>Data entry for QR code generation:</p><br />
+  <img src="public/pics/10.gif" width="800" title="Data entry for QR code generation"><br />
   
   <p>Creating a link for a GET request:</p><br />
   <img src="public/pics/11.gif" width="800" title="Creating a link for a GET request"><br />
