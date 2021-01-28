@@ -14,7 +14,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
 <h3> 
   How to start the app locally:
   </h3> 
-  
   <p>
   <ul>
     <li>
@@ -31,7 +30,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
     </li>
   </ul>
   </p> 
-  
   <h3 align="center">
    <p>Email verification:</p><br />
   <img src="public/pics/1.gif" width="800" title="Email verification"><br />
