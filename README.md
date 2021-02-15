@@ -3,7 +3,6 @@
   This application provides a service for developers to form charts and QR code links in their applications.
 </p>
 
-
  <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, Material UI, REST API, QuickChart GraphViz API.
  </h3> 
