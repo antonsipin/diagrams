@@ -15,7 +15,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   How to start the app locally:
   </h3> 
   
-  
   <p>
   <ul>
     <li>
