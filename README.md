@@ -11,7 +11,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   The app is available on Heroku: https://diagrams-create-app.herokuapp.com/
   </h3>
   
-  
 <h3> 
   How to start the app locally:
   </h3> 
