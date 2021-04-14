@@ -66,4 +66,5 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <p>Creating a link for a GET request:</p><br />
   <img src="public/pics/11.gif" width="800" title="Creating a link for a GET request"><br />
   
+  
   </h3>
