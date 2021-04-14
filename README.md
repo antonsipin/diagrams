@@ -2,9 +2,11 @@
 <p>
   This application provides a service for developers to form charts and QR code links in their applications.
 </p>
+
  <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, Material UI, REST API, QuickChart GraphViz API.
  </h3> 
+ 
   <h3>
   The app is available on Heroku: https://diagrams-create-app.herokuapp.com/
   </h3>
