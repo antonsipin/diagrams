@@ -42,7 +42,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <img src="public/pics/6.gif" width="800" title="View all charts"><br />
   <p>Editing a chart:</p><br />
   <img src="public/pics/7.gif" width="800" title="Editing a chart"><br />
-  
   <p>Editing a chart:</p><br />
   <img src="public/pics/8.gif" width="800" title="Creating a link for a GET request"><br />
   
