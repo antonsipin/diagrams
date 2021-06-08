@@ -32,7 +32,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <img src="public/pics/1.gif" width="800" title="Email verification"><br />
    <p>Password verification:</p><br />
   <img src="public/pics/2.gif" width="800" title="Password verification"><br />
-  
   <p>Authorization:</p><br />
   <img src="public/pics/3.gif" width="800" title="Authorization"><br />
   
