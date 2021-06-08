@@ -44,7 +44,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <img src="public/pics/7.gif" width="800" title="Editing a chart"><br />
   <p>Editing a chart:</p><br />
   <img src="public/pics/8.gif" width="800" title="Creating a link for a GET request"><br />
-  
   <p>Copying the link and sending a GET request:</p><br />
   <img src="public/pics/9.gif" width="800" title="Copying the link and sending a GET request"><br />
   <p>Data entry for QR code generation:</p><br />
