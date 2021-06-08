@@ -36,7 +36,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   <img src="public/pics/3.gif" width="800" title="Authorization"><br />
   <p>Entering data for a chart:</p><br />
   <img src="public/pics/4.gif" width="800" title="Entering data for a chart"><br />
-  
   <p>Creating a link for a GET request:</p><br />
   <img src="public/pics/5.gif" width="800" title="Creating a link for a GET request"><br />
   
