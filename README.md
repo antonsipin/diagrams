@@ -57,7 +57,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, HandleBars, 
   
   <p>Data entry for QR code generation:</p><br />
   <img src="public/pics/10.gif" width="800" title="Data entry for QR code generation"><br />
-  
   <p>Creating a link for a GET request:</p><br />
   <img src="public/pics/11.gif" width="800" title="Creating a link for a GET request"><br />
   </h3>
