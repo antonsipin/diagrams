@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
-
-
-
   <script defer src="/js/application.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="/stylesheets/stylesheet.css">
   <link rel="stylesheet" href="/stylesheets/index.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,53 +20,54 @@
     });
   </script>
 </head>
-
-
 <body>
   <header>
-
-
     <nav class="green lighten-3">
       <div class=" nav-wrapper">
-
         <a href="/" class="brand-logo" id="titlename">Diagrams</a>
-
         <a href="#" class="sidenav-trigger" data-target="mobile-nav">
           <i class="material-icons">menu</i>
         </a>
-
         <ul id="nav-mobile" class="right hide-on-med-and-down ul-index">
+
           {{#if userName}}
+
           <li><a href="/">Home</a></li>
           <li><a href="/account">{{userName}}</a></li>
           <li><a href="/users/logout">Log Out</a></li>
+
           {{else}}
+
           <li><a href="/">Home</a></li>
           <li><a href="/users/signin">Log in</a></li>
           <li><a href="/users/signup">Sign up</a></li>
+
           {{/if}}
+
         </ul>
       </div>
     </nav>
 
     <ul class="sidenav" id="mobile-nav">
+
       {{#if userName}}
+
       <li><a href="/">Home</a></li>
       <li><a href="/account">{{userName}}</a></li>
       <li><a href="/users/logout">Log Out</a></li>
+
       {{else}}
+
       <li><a href="/">Home</a></li>
       <li><a href="/users/signin">Log in</a></li>
       <li><a href="/users/signup">Sign up</a></li>
+
       {{/if}}
+
     </ul>
-
-
-
   </header>
 
   {{{body}}}
 
 </body>
-
 </html>

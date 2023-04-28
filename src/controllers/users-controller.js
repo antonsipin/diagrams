@@ -20,41 +20,27 @@ const renderSignIn = (req, res) => {
 }
 
 const signUp = async (req, res) => {
-  const { name, email, password } = req.body
-  console.log('req.body >>>>>>>>>>', name, email, password)
+const { name, email, password } = req.body
   
   if (name && email && password) {
     try {
       const hashPassword = await bcrypt.hash(password, Number(salt))
-      console.log('hashPassword:>>>>>>>', hashPassword);
-      
       const newUser = new User({
         name,
         email,
         password: hashPassword
       })
 
-      console.log('newUser:>>>>>>>>>', newUser)
-
       await newUser.save()
-
       req.session.user = serializeUser(newUser)
-
-      console.log('req.session.user:>>>>>>>>>', req.session.user);
-      console.log('serializeUser(newUser) >>>>>>>>>>>>>', serializeUser(newUser))
-
       res.redirect('/account')
-
     } catch (e) {
 
-      console.log('e >>>>>>>>>', e);
-
-      res.render('signUp', { error: 'User not found please try again'})
+    res.render('signUp', { error: 'User not found please try again'})
   }
   } else {
-
     res.render('signUp', {error: 'Missing Email or Password'})
-}
+  } 
 }
 
 const signIn = async (req, res) => {
@@ -63,7 +49,6 @@ const signIn = async (req, res) => {
   if (email && password) {
     try {
       const user = await User.findOne({ email }).lean()
-      console.log('user >>>>>>>>>>>>>>>>>', user);
       if (user) {
         const validPassword = await bcrypt.compare(password, user.password)
         if (validPassword) {
@@ -76,7 +61,6 @@ const signIn = async (req, res) => {
         res.render('signIn', { error: 'Wrong Email or Password' })
       }
     } catch (e) {
-      console.log('e >>>>>>>>>>>', e);
       res.render('signIn', { error: 'User not found please try again' })
     }
   } else {

@@ -7,8 +7,6 @@ const renderSendMailForm = (req, res) => {
 const sendMail = async (req, res) => {
 
   let src = req.body.src
-  console.log('src>>>>>>>>>>>>>>>', src);
-
   
   let transporter = nodemailer.createTransport({
     host: "smtp.mail.ru",

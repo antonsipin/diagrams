@@ -1,12 +1,8 @@
 <div class="container">
   <div class="row">
-
     <div class="d-flex justify-content-center">
-
       <h1 class="all-trips-title">Here are all the diagrams you created:</h1><br />
       <div class="d-flex justify-content-center">
-
-
         <form class="d-flex justify-content-center" name="mailForm" method="GET" action="/mail" id="mailForm">
           <button id="sendMailBtn" formaction="/newtrip" formmethod="get"
             class="waves-effect waves-light btn-large nav-wrapper green lighten-3" type="submit"
@@ -14,6 +10,7 @@
         </form>
 
         {{#each allTrips}}
+
         <div class="chart">
           <h3>
             <p id="list" class="list-od-trips list-item col-1-2">
@@ -25,8 +22,6 @@
         {{/each}}
 
       </div>
-
     </div>
   </div>
-
 </div>
